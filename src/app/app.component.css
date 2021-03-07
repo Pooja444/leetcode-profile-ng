@@ -1,0 +1,167 @@
+a {
+    color: #1890ff;
+}
+
+.profile-card {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+    -webkit-font-feature-settings: 'tnum';
+    font-feature-settings: 'tnum';
+    position: relative;
+    background: #fff;
+    border-radius: 2px;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px, rgba(0, 0, 0, 0.08) 0px 2px 8px;
+    margin-bottom: 15px;
+    width: 370px;
+}
+
+.card-header {
+    display: inline-block;
+    -webkit-box-flex: 1;
+    flex: 1;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 500;
+    border-bottom: 1px solid #e8e8e8;
+    width: 100%;
+}
+
+.card-title {
+    padding: 8px 0px 8px 12px;
+}
+
+.card-body {
+    padding: 12px;
+}
+
+.user-info-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.user-avatar {
+    -ms-flex-item-align: start;
+    align-self: flex-start;
+    width: 80px;
+    border-radius: 6px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    vertical-align: middle;
+    border-style: none;
+}
+
+.user-info-content {
+    color: rgba(0, 0, 0, 0.65);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-right: 4px;
+}
+
+.realname {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.star-rating-container {
+    width: 100px;
+    margin-top: 4px;
+    display: flex;
+}
+
+.user-socials {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-left: auto;
+}
+
+.social-icon {
+    opacity: 1;
+    font-size: 32px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.github-icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    /* fill: rgba(0, 0, 0, 0.65); */
+    overflow: hidden;
+}
+
+.other-info-list {
+    border-top: 1px solid rgb(224, 224, 224);
+    margin-top: 15px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.65);
+    font-size: 14px;
+    font-variant: tabular-nums;
+    line-height: 1.5;
+    list-style: none;
+    -webkit-font-feature-settings: 'tnum';
+    font-feature-settings: 'tnum';
+    position: relative;
+}
+
+.info-list-item {
+    border-bottom: 1px solid #e8e8e8;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 12px 0;
+    outline: none;
+}
+
+.list-item {
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.list-item > svg {
+    fill: rgba(0, 0, 0, 0.65);
+    margin-right: 5px;
+}
+
+.info-list-item > :last-child {
+    flex: 1 1 0%;
+    display: flex;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    margin-left: 8px;
+    overflow-wrap: anywhere;
+}
+
+.list-item-icon {
+    width: 1em;
+    height: 1em;
+    vertical-align: middle;
+    fill: rgba(0, 0, 0, 0.65);
+    overflow: hidden;
+}
